@@ -73,7 +73,7 @@ blockquote {
 
     .inline-image {
         float: left;
-        max-width: calc(50% - 10rem);
+        max-width: calc(50% - 6rem);
         margin: 1rem 1.5rem 1rem 0;
 
         @media screen and (max-width: $mobile) {
