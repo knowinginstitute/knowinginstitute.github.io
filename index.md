@@ -36,7 +36,7 @@ sections:
     section_id: Strong Ai
     image_alt: lorem-ipsum
     content: >
-      ## Bootstrap Strong AI
+      ## Bootstrap AI
 
 
       Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
