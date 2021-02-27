@@ -16,7 +16,7 @@ sections:
     section_id: cat
     type: section_content
     image: images/grafitti.png
-    image_alt: Democratic Graffi
+    image_alt: Democratic Grafitti
     content: >
       ## Bootstrap Democracy
 
