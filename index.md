@@ -56,7 +56,7 @@ seo:
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Vanilla Theme
+      value: 'Knowing Institute, protector of the Knowing Protocol'
       keyName: property
     - name: 'og:description'
       value: The preview of the Vanilla theme
