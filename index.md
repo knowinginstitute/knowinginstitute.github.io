@@ -32,11 +32,6 @@ sections:
       euismod nunc adipiscing lacinia erat ut sit. Arcu amet.
 
       Id massa aliquet arcu accumsan lorem amet accumsan.
-  - title: Recent Posts
-    section_id: posts
-    type: section_posts
-    has_more_link: true
-    more_link_text: Read more
 seo:
   title: Stackbit Vanilla Theme
   description: The preview of the Vanilla theme
