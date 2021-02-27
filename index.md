@@ -5,7 +5,7 @@ sections:
     type: section_hero
     title: Knowing Institute is the protector of the Knowing Protocol
     subtitle: |
-      ### Let's agree upon what we are talking about.
+      ### A communication protocol for the future
     image: images/magical-stegosaurus.png
     image_alt: Knowing Institute Logo
   - title: Text
