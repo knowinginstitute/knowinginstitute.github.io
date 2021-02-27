@@ -12,7 +12,7 @@ sections:
     section_id: intro
     type: section_content
     content: "The purpose of Knowing Protocol is to create a single exhaustive framework to represent individual and collective sense-making, accumulate knowledge, and enable transfer information effectively between humans and machines.\_\n\nKnowing Institute protects the protocol and coordinates the development the content. \n\n### What is it for?\n\nThere are two main areas where the protocol can be used, and we estimate the number of applications will increase tremendously in the coming years. \n"
-  - title: A Cat
+  - title: Bootstrap Democracy
     section_id: cat
     type: section_content
     image: images/grafitti.png
