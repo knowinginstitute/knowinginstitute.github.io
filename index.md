@@ -12,11 +12,6 @@ sections:
     section_id: intro
     type: section_content
     content: "The purpose of Knowing Protocol is to create a single exhaustive framework to represent individual and collective sense-making, accumulate knowledge, and enable transfer information effectively between humans and machines.\_\n\nKnowing Institute protects the protocol and coordinates the development the content. \n\n### What is it for?\n\nThere are two main areas where the protocol can be used, and we estimate the number of applications will increase tremendously in the coming years. \n"
-  - title: Recent Posts
-    section_id: posts
-    type: section_posts
-    has_more_link: true
-    more_link_text: Read more
   - title: A Cat
     section_id: cat
     type: section_content
@@ -41,6 +36,11 @@ sections:
       ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum
       massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan
       euismod nunc adipiscing lacinia erat ut sit. Arcu amet.
+  - title: Recent Posts
+    section_id: posts
+    type: section_posts
+    has_more_link: true
+    more_link_text: Read more
 seo:
   title: Stackbit Vanilla Theme
   description: The preview of the Vanilla theme
