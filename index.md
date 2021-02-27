@@ -47,6 +47,7 @@ sections:
 
       - dolor sit amet
     type: section_content
+    image: images/art.svg
   - title: lorem-ipsum
     section_id: lorem-ipsum
     image_alt: lorem-ipsum
