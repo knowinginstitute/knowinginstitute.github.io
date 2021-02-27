@@ -50,7 +50,7 @@ sections:
     image: images/art.svg
 seo:
   title: 'Knowing Institute, protector of the Knowing Protocol'
-  description: The preview of the Vanilla theme
+  description: Bootstrap Democracy and Strong AI
   extra:
     - name: 'og:type'
       value: website
