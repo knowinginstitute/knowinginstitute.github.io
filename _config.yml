@@ -13,10 +13,9 @@ header:
     - label: Protocol
       url: /protocol/
     - label: Contact
-      url: /ipsum/
+      url: /contact/
 footer:
-  content: >-
-    &copy; 2021 Knowing Institute. All rights reserved.
+  content: '&copy; 2021 Knowing Institute. All rights reserved.'
   has_social: false
   social_links:
     - label: Twitter
