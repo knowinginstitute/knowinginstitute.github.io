@@ -12,8 +12,6 @@ header:
       url: /
     - label: Protocol
       url: /generic/
-    - label: Elements
-      url: /elements/
     - label: Contact
       url: /ipsum/
 footer:
