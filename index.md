@@ -47,7 +47,7 @@ sections:
 
       *   dolor sit amet
     type: section_content
-    image: images/art.svg
+    image: images/StrongAI.png
 seo:
   title: 'Knowing Institute, protector of the Knowing Protocol'
   description: Bootstrap Democracy and Strong AI
