@@ -1,7 +1,7 @@
 ---
 title: Protocol
 sections:
-  - title: lorem-ipsum
+  - title: Knowing Protocol
     section_id: lorem-ipsum
     subtitle: >-
       ## Lorem ipsum
