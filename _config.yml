@@ -16,9 +16,7 @@ header:
       url: /ipsum/
 footer:
   content: >-
-    &copy; Knowing Institute. All rights reserved. Create yours <a
-    href="https://app.stackbit.com/create?theme=vanilla&utm_source=deployed-footer"
-    target="_blank" rel="noopener">now</a>
+    &copy; Knowing Institute. All rights reserved.
   has_social: false
   social_links:
     - label: Twitter
