@@ -18,7 +18,7 @@ sections:
     image: images/art.svg
     image_alt: Geometric pattern
     content: >
-      # Bootstrap Democracy 
+      ## Bootstrap Democracy
 
 
       Hi this is my text and image block. Vis accumsan feugiat adipiscing nisl
