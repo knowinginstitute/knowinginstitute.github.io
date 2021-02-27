@@ -15,7 +15,7 @@ sections:
   - title: A Cat
     section_id: cat
     type: section_content
-    image: images/art.svg
+    image: images/grafitti.png
     image_alt: Geometric pattern
     content: >
       ## Bootstrap Democracy
