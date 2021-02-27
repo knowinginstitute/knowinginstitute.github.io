@@ -16,7 +16,7 @@ sections:
     section_id: cat
     type: section_content
     image: images/grafitti.png
-    image_alt: Geometric pattern
+    image_alt: Democratic
     content: >
       ## Bootstrap Democracy
 
