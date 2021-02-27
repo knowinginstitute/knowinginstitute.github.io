@@ -49,7 +49,7 @@ sections:
     type: section_content
     image: images/art.svg
 seo:
-  title: Knowing Institute is the protector of the Knowing Protocol
+  title: 'Knowing Institute, protector of the Knowing Protocol'
   description: The preview of the Vanilla theme
   extra:
     - name: 'og:type'
