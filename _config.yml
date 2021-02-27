@@ -10,7 +10,7 @@ header:
   nav_links:
     - label: Home
       url: /
-    - label: Protocol
+    - label: The Protocol
       url: /protocol/
     - label: Contact
       url: /contact/
