@@ -62,7 +62,7 @@ seo:
       value: Bootstrap Democracy and Strong AI
       keyName: property
     - name: 'og:image'
-      value: images/vanilla-preview.png
+      value: /images/magical-stegosaurus.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
