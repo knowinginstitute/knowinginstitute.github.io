@@ -59,7 +59,7 @@ seo:
       value: 'Knowing Institute, protector of the Knowing Protocol'
       keyName: property
     - name: 'og:description'
-      value: The preview of the Vanilla theme
+      value: Bootstrap Democracy and Strong AI
       keyName: property
     - name: 'og:image'
       value: images/vanilla-preview.png
