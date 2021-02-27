@@ -32,7 +32,7 @@ sections:
       euismod nunc adipiscing lacinia erat ut sit. Arcu amet.
 
       Id massa aliquet arcu accumsan lorem amet accumsan.
-  - title: ooB
+  - title: Bootstrap Strong Ai
     section_id: Strong Ai
     image_alt: lorem-ipsum
     content: >
