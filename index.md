@@ -33,7 +33,7 @@ sections:
 
       Id massa aliquet arcu accumsan lorem amet accumsan.
   - title: lorem-ipsum
-    section_id: lorem-ipsum
+    section_id: Strong Ai
     image_alt: lorem-ipsum
     content: >
       ## Bootstrap Strong AI
