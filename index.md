@@ -3,7 +3,7 @@ title: Home
 sections:
   - section_id: hero
     type: section_hero
-    title: Knowing Institute is the protector of the Knowing Protocol
+    title: Knowing Institute is the guardian of the Knowing Protocol
     subtitle: |
       ### Let's agree upon what we are talking about.
     image: images/friendly-pine.png
