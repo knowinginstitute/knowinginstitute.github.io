@@ -693,6 +693,21 @@ quote author {
     margin-top: 4px;
 }
 
+figure {
+	text-align: center;
+}
+
+figure svg {
+
+}
+
+figure footer {
+	color: rgba(0, 0, 0, 0.75);
+    font-size: 12px;
+    letter-spacing: 0.1px;
+    margin: 12px 24px 0;
+}
+
 
 /**
 	BOOK
