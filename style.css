@@ -727,13 +727,13 @@ figure footer {
     line-height: 1.2;
 }
 
-ol article {
+.prototype article {
 	font-size: 14px;
     border-left: 8px solid #eee;
     padding-left: 12px;
     margin: 4px 0 8px;
 }
-ol article span {
+.prototype span.c {
 	padding: 3px 4px;
     border-radius: 4px;
     font-size: 12px;
@@ -741,17 +741,24 @@ ol article span {
     line-height: 1;
 }
 
-ol article span.c1 {
+.prototype span.c.c1 {
 	background: #D5B3B3;
 	color: #fff;
 }
-ol article span.c2 {
+.prototype span.c.c2 {
 	background: #B3D5C1;
 	color: #fff;
 }
-ol article span.c3 {
+.prototype span.c.c3 {
 	background: #B3C1D5;
 	color: #fff;
+}
+
+.statements li {
+	margin-bottom: 12px; 
+}
+.statements li i {
+	font-weight: 700;
 }
 
 
