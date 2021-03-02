@@ -763,6 +763,13 @@ ol article {
     padding-left: 12px;
     margin: 4px 0 8px;
 }
+ul .example,
+ol .example {
+	font-size: 14px;
+    margin: 4px 0 8px;
+	font-style: italic;
+}
+
 span.c {
 	padding: 3px 4px;
     border-radius: 4px;
