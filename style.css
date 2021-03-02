@@ -1,8 +1,9 @@
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700");
 html {
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
+  	line-height: 1.15;
+  	-webkit-text-size-adjust: 100%;
+	scroll-behavior: smooth;
 }
 body {
   margin: 0; 
@@ -233,10 +234,10 @@ blockquote {
   margin: 2.5rem 0; 
 }
 
-.content {
-	margin: 0;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 12px;
+section.new {
+    margin: 12px 0 0 0;
+    border-top: 1px solid #eee;
+    padding-top: 24px;
 }
 .content .inline-image {
 	float: left;
@@ -304,7 +305,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 24px 0 4px;
+  margin: 12px 0 4px;
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 1.2em; 
@@ -315,11 +316,12 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem; 
+  font-size: 1.8rem; 
+  margin-bottom: 18px;
 }
 
 h3 {
-  font-size: 1.5rem; 
+  font-size: 1.4rem; 
 }
 
 h4 {
@@ -638,22 +640,38 @@ button:not(.logo):not(.nav-link):focus:after,
 }
 
 .wide-container {
-	max-width: 1200px;
-	margin: 0 auto;
-	position: relative;
-	padding-left: 220px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 220px 1fr;
 }
+.wide-container > .wrapper {
+	margin-left: 0;
+
+}
+
 aside.menu {
-	width: 220px;
-	padding: 32px 16px 16px;
-	background: #fff;
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	overflow-x: hidden;
-	overflow-y: auto;
+    align-self: start;
+    width: 220px;
+    padding: 20px 16px 16px;
+    background: #fff;
+    position: sticky;
+    top: 24px;
+    /* bottom: 0; */
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
+@media screen and (max-width: 768px) {
+	.wide-container {
+		display: block;
+	}
+	aside.menu {
+		display: none;
+	}
+}
+
 aside.menu nav {
 	font-size: 14px;
 }
@@ -669,14 +687,24 @@ aside.menu nav > ul > li > ul > li {
 	margin-left: 12px;
 	line-height: 1.5;
 }
+aside.menu nav > ul > li > ul > li > ul > li {
+	margin-left: 10px;
+    /* line-height: 1.5; */
+    font-style: italic;
+    line-height: 1.9;
+    font-size: 12px;
+}
 aside.menu nav > ul > li > a {
 	font-weight: bold;
 	text-decoration: none;
 	color: #000;
 }
-aside.menu nav > ul > li > ul > li > a {
+aside.menu a {
 	text-decoration: none;
 	color: #000;
+}
+aside.menu nav li.active > a {
+	font-weight: 700;
 }
 
 quote {
@@ -703,6 +731,7 @@ figure {
 
 figure svg {
 	margin: 24px 0;
+	max-width: 100%;
 }
 
 figure svg text {
@@ -727,13 +756,14 @@ figure footer {
     line-height: 1.2;
 }
 
-.prototype article {
+ul article,
+ol article {
 	font-size: 14px;
     border-left: 8px solid #eee;
     padding-left: 12px;
     margin: 4px 0 8px;
 }
-.prototype span.c {
+span.c {
 	padding: 3px 4px;
     border-radius: 4px;
     font-size: 12px;
@@ -741,15 +771,15 @@ figure footer {
     line-height: 1;
 }
 
-.prototype span.c.c1 {
+span.c.c1 {
 	background: #D5B3B3;
 	color: #fff;
 }
-.prototype span.c.c2 {
+span.c.c2 {
 	background: #B3D5C1;
 	color: #fff;
 }
-.prototype span.c.c3 {
+span.c.c3 {
 	background: #B3C1D5;
 	color: #fff;
 }
@@ -759,6 +789,32 @@ figure footer {
 }
 .statements li i {
 	font-weight: 700;
+}
+
+table.reference {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 12px 0 24px;
+}
+table.reference thead th {
+	text-align: left;
+    border-bottom: 2px solid #585858;
+    padding: 8px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+table.reference td {
+	padding: 12px 8px;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+	vertical-align: top;
+}
+table.reference tr:nth-child(even) td {
+	background: #fdfdfd;
+}
+table.reference td:first-child {
+	width: 180px; 
 }
 
 

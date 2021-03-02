@@ -17,19 +17,43 @@
 		<meta name="twitter:description" content="Knowing Institute is the protector of the Knowing Protocol"> 
 		<meta name="twitter:image" content="https://knowinginstitute.org/images/institute-circle.png"> 
 		<link rel="stylesheet" href="../style.css"> 
+		<script src="../script.js"></script>
 	</head>
 	<body>
+
+	<div class="wide-container" id="top">
+		<div></div>
+		<div class="wrapper" style="width: 100%; min-height: auto;">
+			<header id="header" class="header container" style="margin-bottom: 12px">
+				<a href="./" class="logo">
+					Knowing Institute
+				</a>
+				<nav>
+					<a href="../" class="nav-link">
+						Home
+					</a>
+					<a href="./" class="nav-link active">
+						Protocol
+					</a>
+					<a href="../about/" class="nav-link">
+						About
+					</a>
+				</nav>
+			</header>
+		</div>	
+
+	</div>
 	<div class="wide-container">
+
 		<aside class="menu">
 			<header>
-				Knowing Protocol
+				<a href="#top">Knowing Protocol</a>
 			</header>
 			<nav>
 				<ul>
 					<li><a href="#introduction">Introduction</a>
 						<ul>
-							<li><a href="#prototype-1">Prototype</a></li>
-							<li><a href="#example">Example</a></li>
+							<li><a href="#example">Example 1</a></li>
 						</ul>
 					</li>
 					<li><a href="#background">Background</a>
@@ -43,10 +67,12 @@
 						<ul>
 							<li><a href="#domains">Domains</a></li>
 							<li><a href="#prototype">Prototype</a></li>
-							<li><a href="#symbols">Symbols</a></li>
-							<li><a href="#prototype">State Handling</a></li>
-							<li><a href="#prototype">Time, cause and effect</a></li>
-							<li><a href="#prototype">Storytelling</a></li>
+							<li><a href="#symbols">Symbols</a>
+							<li><a href="#state-handling">State Handling</a></li>
+							<li><a href="#time-and-change">Time and Change</a></li>
+							<li><a href="#storytelling">Storytelling</a></li>
+							<li><a href="#ethical-system"">Ethical System</a></li>
+							<li><a href="#meaning">Meaning</a></li>
 						</ul>
 					</li>
 					<li><a href="#operations">Operations</a>
@@ -65,32 +91,22 @@
 							<li></li>
 						</ul>
 					</li>
+					<li><a href="#appendix">Appendix</a>
+						<ul>
+							<li><a href="#physical">Physical</a></li>
+							<li><a href="#semantic">Semantic</a></li>
+							<li><a href="#agent-centric">Agent-centric</a></li>
+						</ul>
+					</li>
 				</ul>
 			</nav>
 		</aside>
 
 		<div class="wrapper">
-
-			<header id="header" class="header container">
-				<a href="./" class="logo">
-					Knowing Institute
-				</a>
-				<nav>
-					<a href="../" class="nav-link">
-						Home
-					</a>
-					<a href="./" class="nav-link active">
-						Protocol
-					</a>
-					<a href="../contact/" class="nav-link">
-						Contact
-					</a>
-				</nav>
-			</header>
 			<div class="container">
 
-				<section id="introduction" class="content">
-					<h3>Knowing Protocol</h3>
+				<section>
+					<h2>Knowing Protocol</h2>
 					<area>
 						First Draft, February 2021. 
 					</area>
@@ -101,35 +117,39 @@
 							<!--<author>Klas Ehnemark</author>-->
 						</quote>
 					</p>
-					<h4 id="introduction">Introduction</h4>
+				</section>
+
+				<section id="introduction">
+					<h4>Introduction</h4>
 					<p>
 						The Knowing Protocol offers a common ground for understanding a world created by interconnected agents. 
 						It can be used as a framework for sense-making, or as a shared protocol for accurately transfer 
 						meaning between humans and machines. 
 					</p>
 					<p>
-						The Protocol defines a Semantic Network which can represent any reality experienced by humans. 
+						The Protocol defines a Semantic Network which can fully represent any reality experienced by humans. 
 						It differs from previous semantic networks in several ways, most notably in the assumption that 
 						any experienced reality is best understood from three domains; <i>physical</i>, <i>semantic</i> 
-						and <i>agent-centric</i>, and that it has a method for concepts and ideas to have <i>grounded meanings</i>.
+						and <i>agent-centric</i>, and it also has a method for giving concepts and ideas <i>grounded meanings</i>.
 					</p>
-
-					<h5 id="prototype-1">Prototype</h5>
+				</section>
+				<section id="prototype-1">
 					<p>The Protocol can be summarized in this prototype:</p>
 					<ol class="prototype">
 						<li><i>Reality</i> is; <b>physical objects with properties</b></li>
 						<li>and <b>abstract ideas</b>, </li>
 						<li>represented by <b>symbols</b></li>
 						<li>that are <b>categorized</b>, </li> 
-						<li>can have <b>relations</b>,</li>
+						<li>have <b>relations</b>,</li>
 						<li>and can <b>interact</b> with each other</li>
 						<li>within <b>restrictions</b>, </li>
 						<li>interpreted in <b>contexts</b> by <i>agents</i></li>
 						<li>having <b>bias and ethics</b>,</li>
 						<li>giving them <b>attributes and meaning</b>.</li>
 					</ol>
-
-					<h5 id="example">Example</h5>
+				</section>
+				<section id="example">
+					<h5>Example 1</h5>
 					<p>The following graph represents and idea:</p>
 					<figure>
 
@@ -139,8 +159,8 @@
 					</figure>
 				</section>
 
-				<section id="background" class="content">
-					<h3>Background</h3>
+				<section id="background" class="new">
+					<h2>Background</h2>
 					<p>
 						There have been several attempts for creating abstract representation of human knowledge through a 
 						semantic network, which is a knowledge base representing semantic relations between concepts in a 
@@ -153,13 +173,14 @@
 						real-world objects and emerging ideas. At best they offer only a single single-dimensional 
 						representation of something not really well-specified.
 					</p>
-					<h4 id="why-do-we-need-this">Why do we need this?</h4>
+				</section>
+				<section id="why-do-we-need-this">
+					<h3>Why do we need this?</h3>
 					<p>
 						There are several reasons why we need a single model for representing individual and 
-						collective sense-making, accumulate knowledge, and enable transfer information effectively between 
+						collective sense-making, accumulate knowledge, and enable efficient information transfer between 
 						humans and machines.  
 					</p>
-					
 					<ul class="statements">
 						<li>
 							<i>Having a shared reference point</i>, so we know what we are talking about. This will help us detect how our ideas relate to each-other
@@ -179,8 +200,9 @@
 							A huge benefit would be to get traceability of how AI makes decisions and create models the reality.
 						</li>
 					</ul>
-
-					<h4 id="a-new-approach">A new approach</h4>
+				</section>
+				<section id="a-new-approach">
+					<h3>A new approach</h3>
 					<p>
 						The Knowing Protocol has emerged from a learn-by-prototyping process while creating a conversational 
 						interface, and a gradual discovery no available semantic network was really useful. In addition, an 
@@ -216,8 +238,9 @@
 					A novel way for representing ethical systems and how they affect the representation of reality
 					A novel way of categorizing ideas
 					A novel way for representing the process of collective sense-making-->
-
-					<h4 id="related-research">Related to Research</h4>
+				</section>
+				<section id="related-research">
+					<h3>Related to Research</h3>
 					<p>Tvärvetenskaplig, </p>
 					<h5>Semantic Research</h5>
 					<p>
@@ -259,9 +282,27 @@
 					</ul>
 				</section>
 
-				<section id="model" class="content">
-					<h3 id="domains">The Model</h3>
-					<h4>Domains</h4>
+				<section id="model" class="new">
+					<h2>The Model</h2>
+					<p>
+						The Knowing Protocol describes how to draw a graph comprising vertices representing semantic symbols 
+						and edges representing semantic relations between these symbols. It also includes
+					</p>
+					<ul>
+						<li>
+							a predefined set of actions, which represents how the symbols can interact with each-other
+						</li>
+						<li>
+							a predefined set of property-groups, which represents measurable properties on physical objects
+						</li>
+						<li>
+							a predefined set of attribute-groups, which represents agent-centric ways of describing 
+							the experience of objects and ideas 
+						</li>
+					</ul>
+				</section>
+				<section id="domains">
+					<h3>Domains</h3>
 					<p>
 						In order to create semantic network fully representing human knowledge, on contrast to existing semantic networks, 
 						we use three different classes for abstraction of language:
@@ -309,8 +350,9 @@
 							semantic objects, and objects related to an agents preferences and experience. 
 						</footer>
 					</figure>
-
-					<h4 id="prototype">Prototype</h4>
+				</section>
+				<section id="prototype">
+					<h3>Prototype</h3>
 					<p>
 						The protocol specifies how to use a semantic network for describing reality, and it is best summarized in this prototype:
 					</p>
@@ -340,7 +382,7 @@
 								We categorize these symbols so they make more sense to us. For example, we call some of them Nouns, and some of them a Color. 
 							</article>
 						</li> 
-						<li>can have <b>relations</b>, 
+						<li>have <b>relations</b>, 
 							<article>
 								<span class="c c1">Physical</span>&nbsp;<span class="c c2">Semantic</span>&nbsp;<span class="c c3">Agent-centric</span>
 								We relate these symbols with each-other to understand cause-effect, . 
@@ -377,8 +419,40 @@
 							</article>
 						</li>
 					</ol>
+				</section>
 
-					<h4>State handling</h4>
+				<section id="symbols">
+					<h3>Symbols</h3>
+					<p>Symbols represent an abstract representation objects from the three domains, hence we have symbols representing:</p>
+					<ul class="statements">
+						<li>
+							<i>Physical objects</i>, like a <em>Stone</em> or a <em>Roaster</em>. One way of understanding the physical world is to say it consists of objects with properties,
+							where properties are defined as: 
+							<article>
+								Properties are measurable and might be the result of a physical process.
+							</article>
+						</li>
+						<li>
+							<i>Semantic objects</i>, like <em>Noun</em> or <em>Action</em>. Semantic objects are used when defining physical and agent-centric objects. 
+							by when grouping, relating, or making operations in the 
+						</li>
+						<li>
+							<i>Agent-centric objects</i>, like <em>Beautiful</em> or <em>Democracy</em>. Abstract ideas are equally important as physical objects in order for agents to understand a shared 
+							reality-space. Ideas are defined as:
+							<article>
+								Mental objects or mental states used by an agent when making sense about something.
+							</article>
+						</li>
+					</ul>
+					<p>As already mentioned, these domains both overlap and affect each-other when an agent create meaning of reality, but the division is good enough for us to be able to create a full semantic network.</p>
+					<p>
+						Each of these domains also have sets of <i>Categories</i>, <i>Actions</i>, <i>Restrictions</i>, and <i>Relations</i> that are unique for that domain. For instance, a real-world object can <i>Fly</i>, and semantic objects cannot. 
+						A semantic object can be of a certain type, 
+					</p>
+				</section>
+
+				<section id="state-handling">
+					<h3>State handling</h3>
 					<p>
 						In addition to domains, another suggestion is adding states and changes between these states as an 
 						important dimension to the model. These changes between states often replace what other frameworks 
@@ -388,114 +462,6 @@
 					<p>
 						The breadk-down of concepts into states. 
 					</p>
-					<h4>Time, cause and effect</h4>
-					<p>
-					</p>
-					<h4>Storytelling</h4>
-					<p>
-						A fundamental way of understanding the reality for humans. A way of grounding the knowledge for Ai. 
-						Without storytelling knowledge have no real meaning. 
-					</p>
-				</section>
-
-				<section id="model" class="content">
-					<h3>Symbol Language</h3>
-					<p>
-						The Knowing Protocol:
-					</p>
-					<ul>
-						<li>
-							describes how to draw a graph comprising vertices representing symbols of experienced reality, 
-							and edges representing relations between these symbols
-						</li>
-						<li>
-							includes a predefined set of actions, which represents how the symbols can interact with each-other
-						</li>
-						<li>
-							includes a predefined set of property-groups, which represents measurable properties on physical objects
-						</li>
-						<li>
-							includes a predefined set of attribute-groups, which represents agent-centric ways of describing 
-							the experience of objects and ideas 
-						</li>
-					</ul>
-
-					
-					<h4>Reality is; represented by symbols</h4>
-					<p>
-						Both physical objects and abstract ideas are represented by a set of symbols which are then connected with 
-						other symbols in the semantic graph. 
-					</p>
-
-
-					<h4>Reality is; physical objects with properties</h4>
-					<p>
-						To make the model clear, we separate the physical world from the experience of being in that world. 
-						A way of understanding the physical world is to say it consists of objects with properties. 
-						Although both objects and properties must become symbols for any agent to interpret them, object’s 
-						properties are a special class in the Knowing Protocol, defined as:
-					</p>
-					<p class="definition">
-						Properties are measurable and might be the result of a physical process.
-					</p>
-					<figure>
-						<svg width="179px" height="42px" viewBox="0 0 179 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-							<title>Group 4</title>
-							<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-								<g id="Group-4" transform="translate(0.500000, 0.000000)">
-									<text id="Matter-Copy" font-family="GillSans, Gill Sans" font-size="14" font-weight="normal" fill="#000000">
-										<tspan x="0.260253906" y="39">Matter</tspan>
-									</text>
-									<circle id="Oval-Copy-9" fill-opacity="0.498552229" fill="#191D78" cx="19.5" cy="13" r="10"></circle>
-									<text id="Color-Copy" font-family="GillSans, Gill Sans" font-size="14" font-weight="normal" fill="#000000">
-										<tspan x="143.512695" y="39">Color</tspan>
-									</text>
-									<text id="Can-have-property-Copy" font-family="GillSans, Gill Sans" font-size="11" font-weight="normal" fill="#000000">
-										<tspan x="46.876709" y="10">Can have property</tspan>
-									</text>
-									<circle id="Oval-Copy-8" fill-opacity="0.500655594" fill="#191D78" cx="160.5" cy="13" r="10"></circle>
-									<path id="Path-3-Copy-103" d="M141.745131,8.56421223 L149.745131,13.0642122 L150.519864,13.5 L149.745131,13.9357878 L141.745131,18.4357878 L141.254869,17.5642122 L147.589,14 L30,14 L30,13 L147.593,13 L141.254869,9.43578777 L141.745131,8.56421223 Z" fill="#858585" fill-rule="nonzero"></path>
-								</g>
-							</g>
-						</svg>
-						<footer>
-							Figure. Physical objects can have measuarable properties
-						</footer>
-					</figure>
-
-					<h4>Reality is; abstract ideas</h4>
-					<p>
-						Abstract ideas are equally important as physical objects in order for agents to understand a shared 
-						reality-space. Ideas are defined as:
-					</p>
-					<p class="definition">
-						Mental objects or mental states which an agent uses when making sense about something.
-					</p>
-					<p>
-						Further more, abstract ideas can have the following behaviours:
-					</p>
-					<ul>
-						<li>
-							Almost all ideas are dependent on other ideas, ie we have to assume some things first in order 
-							to assume other things. 
-						</li>
-						<li>
-							Sometimes ideas have circular references
-						</li>
-						<li>
-							When dependent on other ideas, these can sometimes change their definition to some degree, 
-							using what we call a semantic displacement
-						</li>
-						<li>
-							Just like actions, properties and attributes, an abstract idea can have arguments that are 
-							unique for that idea. Arguments are externalized dependencies which can change depending on the 
-							context while maintaining the idea’s prototype. 
-						</li>
-						<li>
-							Ideas often have multiple states, where the differences between these states constitutes the 
-							idea itself
-						</li>
-					</ul>
 					<figure>
 						<svg width="497px" height="137px" viewBox="0 0 497 137" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 							<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -557,16 +523,121 @@
 
 				</section>
 
+				<section id="time-and-change">
+					<h3>Time and Change</h3>
+					<p>
+						Also, , cause and effect. 
+					</p>
+				</section>
 
-				<section id="operations" class="content">
-					<h3>Operations</h3>
-					<h4 id="layers">Layers</h4>
-					<h4 id="displacement">Displacement</h4>
+				<section id="storytelling">
+					<h3>Storytelling</h3>
+					<p>
+						A fundamental way of understanding the reality for humans. A way of grounding the knowledge for Ai. 
+						Without storytelling knowledge have no real meaning. 
+					</p>
+				</section>
+
+				<section id="ethical-system">
+					<h3>Ethical System</h3>
+					<p>
+						Values, and connected to change.
+					</p>
+				</section>
+
+				<section id="meaning">
+					<h3>Meaning</h3>
+					<p>
+						Explain Grounded Meaning and agent-centric meaning. 
+					</p>
+				</section>
+
+
+<!--
+				<section>
+					<h4>Reality is; represented by symbols</h4>
+					<p>
+						Both physical objects and abstract ideas are represented by a set of symbols which are then connected with 
+						other symbols in the semantic graph. 
+					</p>
+
+
+					<h4>Reality is; physical objects with properties</h4>
+					<figure>
+						<svg width="179px" height="42px" viewBox="0 0 179 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+							<title>Group 4</title>
+							<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g id="Group-4" transform="translate(0.500000, 0.000000)">
+									<text id="Matter-Copy" font-family="GillSans, Gill Sans" font-size="14" font-weight="normal" fill="#000000">
+										<tspan x="0.260253906" y="39">Matter</tspan>
+									</text>
+									<circle id="Oval-Copy-9" fill-opacity="0.498552229" fill="#191D78" cx="19.5" cy="13" r="10"></circle>
+									<text id="Color-Copy" font-family="GillSans, Gill Sans" font-size="14" font-weight="normal" fill="#000000">
+										<tspan x="143.512695" y="39">Color</tspan>
+									</text>
+									<text id="Can-have-property-Copy" font-family="GillSans, Gill Sans" font-size="11" font-weight="normal" fill="#000000">
+										<tspan x="46.876709" y="10">Can have property</tspan>
+									</text>
+									<circle id="Oval-Copy-8" fill-opacity="0.500655594" fill="#191D78" cx="160.5" cy="13" r="10"></circle>
+									<path id="Path-3-Copy-103" d="M141.745131,8.56421223 L149.745131,13.0642122 L150.519864,13.5 L149.745131,13.9357878 L141.745131,18.4357878 L141.254869,17.5642122 L147.589,14 L30,14 L30,13 L147.593,13 L141.254869,9.43578777 L141.745131,8.56421223 Z" fill="#858585" fill-rule="nonzero"></path>
+								</g>
+							</g>
+						</svg>
+						<footer>
+							Figure. Physical objects can have measuarable properties
+						</footer>
+					</figure>
+
+					<h4>Reality is; abstract ideas</h4>
+					<p>
+						Abstract ideas are equally important as physical objects in order for agents to understand a shared 
+						reality-space. Ideas are defined as:
+					</p>
+					<p class="definition">
+						Mental objects or mental states which an agent uses when making sense about something.
+					</p>
+					<p>
+						Further more, abstract ideas can have the following behaviours:
+					</p>
+					<ul>
+						<li>
+							Almost all ideas are dependent on other ideas, ie we have to assume some things first in order 
+							to assume other things. 
+						</li>
+						<li>
+							Sometimes ideas have circular references
+						</li>
+						<li>
+							When dependent on other ideas, these can sometimes change their definition to some degree, 
+							using what we call a semantic displacement
+						</li>
+						<li>
+							Just like actions, properties and attributes, an abstract idea can have arguments that are 
+							unique for that idea. Arguments are externalized dependencies which can change depending on the 
+							context while maintaining the idea’s prototype. 
+						</li>
+						<li>
+							Ideas often have multiple states, where the differences between these states constitutes the 
+							idea itself
+						</li>
+					</ul>
+					
+
+				</section>-->
+
+				<section id="operations" class="new">
+					<h2>Operations</h2>
+				</section>
+				<section id="layers">
+					<h3>Layers</h3>
+				</section>
+				<section id="displacement">
+					<h3>Displacement</h3>
 				</section>
 
 				
-				<section id="ledger" class="content">
-					<h3>The Ledger</h3>
+				<section id="ledger" class="new">
+					<h2>The Ledger</h2>
 					<p>
 						Primary layers integrity are protected by ledger technology. 
 					</p>
@@ -583,12 +654,215 @@
 					</p>
 				</section>
 
-				
-				<section id="implementation" class="content">
-					<h3>Implementation</h3>
+
+				<section id="implementation" class="new">
+					<h2>Implementation</h2>
+					<p>This section will postulate how this project will be driven from A-Z</p>
 				</section>
 
 				
+				<section id="appendix" class="new">
+					<h2>Appendix</h2>
+				</section>
+
+				<section id="physical">
+					<h3>Physical Domain</h3>
+					<p>
+						Since physcial objects are measuarable, we benefit from having them in this separate category. One way of looking at it is; whatever object is not subject to a agent-centric process is a physical object. 
+						A green apple is physical. A beautiful apple is not (the apple still is, but the beautiful-aspect of it is not). A forbidden fruit in paradise is not a physical-only object either. 
+					</p>
+					<h4>Objects</h4>
+					<table class="reference">
+						<thead>
+							<tr>
+								<th>Symbol</th>
+								<th>Description</th>
+								<th>Example</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Object</td>
+								<td>One way of understanding the physical world is to say it consists of objects with properties. </td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Property</td>
+								<td>Properties are measurable and might be the result of a physical process.
+										Properties can belong to one of the following categories:
+
+								</td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+
+					<h4>Relations</h4>
+					<table class="reference">
+						<thead>
+							<tr>
+								<th>Relation</th>
+								<th>Description</th>
+								<th>Example</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>HasProperty</td>
+								<td>Indicates an object has a measarable property</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>CanRevieveAction</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>CanAct</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>CanControl</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>CanCause</td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+
+					<h4>Actions and Restrictions</h4>
+					<p>What actions are there</p>
+
+					<h4>Categories</h4>
+					<p>Categories in the physical domain are related to an object's properties or actions.</p>
+				</section>
+
+				<section id="semantic">
+					<h3>Semantic Domain</h3>
+					<h4>Objects</h4>
+					<table class="reference">
+						<thead>
+							<tr>
+								<th>Symbol</th>
+								<th>Description</th>
+								<th>Example</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Object</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Lemma</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Pos</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Primary</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Roget Class</td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+
+					<h4>Relations</h4>
+					<table class="reference">
+						<thead>
+							<tr>
+								<th>Relation</th>
+								<th>Description</th>
+								<th>Example</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>IsA</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Specialized</td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+
+					<h4>Categories</h4>
+					<p>What categories are there</p>
+
+					<h4>Actions and Restrictions</h4>
+					<p>What actions are there</p>
+				</section>
+
+				<section id="agent-centric">
+					<h3>Agent-centric Domain</h3>
+					<h4>Objects</h4>
+					<table class="reference">
+						<thead>
+							<tr>
+								<th>Symbol</th>
+								<th>Description</th>
+								<th>Example</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Object</td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+
+					<h4>Relations</h4>
+					<table class="reference">
+						<thead>
+							<tr>
+								<th>Relation</th>
+								<th>Description</th>
+								<th>Example</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>CanHaveAttribute</td>
+								<td>Connects a symbol to a group of attributes, indicating an agent can give that symbol an attribute from that group</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>HasAttribute</td>
+								<td>Indicates an agent has given a symbol an attribute</td>
+								<td>Apple-[hasAttribute]->Beautiful</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<h4>Categories</h4>
+					<p>What categories are there</p>
+
+					<h4>Actions and Restrictions</h4>
+					<p>What actions are there</p>
+				</section>
+
+
 
 			</div>
 
