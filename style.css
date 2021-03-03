@@ -824,6 +824,10 @@ table.reference td:first-child {
 	width: 180px; 
 }
 
+table.reference td:last-child {
+	width: 25%; 
+}
+
 
 /**
 	BOOK
