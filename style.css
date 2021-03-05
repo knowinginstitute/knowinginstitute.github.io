@@ -247,7 +247,7 @@ blockquote {
 section.new {
     margin: 12px 0 0 0;
     border-top: 1px solid #eee;
-    padding-top: 24px;
+    padding-top: 12px;
 }
 .content .inline-image {
 	float: left;
