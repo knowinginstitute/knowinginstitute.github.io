@@ -5,6 +5,16 @@ html {
   	-webkit-text-size-adjust: 100%;
 	scroll-behavior: smooth;
 }
+a[target="_blank"]:after {
+	content: ' ';
+	background: url("data:image/svg+xml;charset=utf8,%3Csvg width='190' height='171' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%237BA5FF' fill-rule='evenodd'%3E%3Cpath d='M26 15.5h79c5 0 5 15 0 15H26c-4.5 0-11.5 8.5-11.5 12v102c0 4.5 7 11.5 11.5 11.5h95.5c5.5 0 14-10 14-13.5v-41c0-2.5 13-2.5 13 0v41c0 13.5-13 28-27 28H26c-11.5 0-25.5-14.5-25.5-26v-102c0-10.5 11-27 25.5-27z'/%3E%3Cpath d='M72.5 104.5l69-71.5-19-21C118 7 123 .5 127 .5h56c4 .381 6 3 6 6V67c0 4-6 8.5-10.5 4L159 50.5 89 123c-2.5 2.5-20.5-15-16.5-18.5z'/%3E%3C/g%3E%3C/svg%3E");
+    width: 12px;
+    height: 11px;
+    background-size: contain;
+    margin: 0 0 0 4px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
 body {
   margin: 0; 
 }
@@ -796,6 +806,12 @@ span.c.c3 {
 }
 .statements li i {
 	font-weight: 700;
+}
+.statements li > ul {
+	margin: 4px 0 0 ;
+}	
+.statements li > ul > li {
+	margin: 0;
 }
 
 table.reference {
