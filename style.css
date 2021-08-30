@@ -562,6 +562,9 @@ button:not(.logo):not(.nav-link):focus:after,
 .hero h1, .hero h2, .hero h3, .hero h4, .hero h5, .hero h6 {
     font-weight: 300; 
 }
+.hero h1 {
+	margin: 4px 0;
+}
 .hero .copy {
     text-align: left;
     margin: 0; 
